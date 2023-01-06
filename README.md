@@ -18,13 +18,19 @@ Hussein Nasser [ https://github.com/hnasr ]
 ### To run (using npm):
 
 ### use either:
-- `npm start` 
+```
+npm start
+```
 #### or 
-- `node demoJson`
+```
+node demoJson
+```
 - will create a JSON file
 
 ### To test protocol buffer implementation:
-`npm install google-protobuf`
+```
+npm install google-protobuf
+```
  
 ### ProtoC compiler download **[select the latest compiler for your operating system]**
 - https://github.com/protocolbuffers/pr...
@@ -33,10 +39,14 @@ Hussein Nasser [ https://github.com/hnasr ]
 ### vscode-proto3 (Protobuf 3 support if your running in Visual Studio Code)
 
 ### Pre-fix following terminal command with location of your protoc download:
-- `/protoc-3.19.1-osx-x86_64/bin/protoc --js_out=import_style=commonjs,binary:. employees.proto`
+```
+/protoc-3.19.1-osx-x86_64/bin/protoc --js_out=import_style=commonjs,binary:. employees.proto
+```
 
 ### To run protocol buffer implementation:
-`node demoProtobuf`
+```
+node demoProtobuf
+```
 - will create a binary file
 
 ### run `ls -lh` in your directory - compare file sizes
